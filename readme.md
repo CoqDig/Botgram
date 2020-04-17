@@ -5,7 +5,7 @@
    - Nodejs 
 
 ### Guide
-   - Go to Telegram Application  Research * BotFather *
+   - Go to Telegram Application  Research *BotFather*
    - Create a newBot
    - Give a name, You will find url like this https://t.me/CoqDigbot
    - Token to access the HTTP API (Keep your token secure and store it safely)
@@ -14,13 +14,12 @@
        - https://core.telegram.org/bots/api
        - https://core.telegram.org/bots/samples - Nodejs
 
-   ####  Initialize node projet
-         - touche bot.js
+   ####  Initialize your node projet
+         - touch bot.js
          - npm init
-
-### Clone the project from github
-
-$ git clone https://github.com/CoqDig/Botgram.git
+   #### Clone the project from github
+         - git clone https://github.com/CoqDig/Botgram.git
+         - npm install
 
 ### Contributors
 <ul>
