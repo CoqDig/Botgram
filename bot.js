@@ -1,8 +1,7 @@
-const Telegraf = require('telegraf');
-const bot = new Telegraf('1165239069:AAGT7V29BbHYbvoKOq-gp-D6tCRwniK-1-s');
+const BotConfig = require('./apikey');
 
-bot.start((ctx)=>{
+BotConfig.start((ctx)=>{
   ctx.reply('Bienvenue au CoqDig')
 });
 
-bot.launch();
+BotConfig.launch();
