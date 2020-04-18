@@ -4,6 +4,11 @@
 ## Technology used
    - Nodejs 
 
+## Test chatBot
+   #### Commande
+     - /start
+     - /help
+
 ### Guide
    - Go to Telegram Application  Research *BotFather*
    - Create a newBot
