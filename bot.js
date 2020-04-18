@@ -1,7 +1,18 @@
-const BotConfig = require('./botconfig');
+const Telegraf = require('telegraf');
+const apikey = require('./apikey');
+const bot = new Telegraf('1165239069:AAGT7V29BbHYbvoKOq-gp-D6tCRwniK-1-s');
 
-BotConfig.start((ctx)=>{
-  ctx.reply('Bienvenue au CoqDig')
+
+bot.start((ctx)=>{
+  ctx.reply(`Bienvenue a CoqDig! ${ctx.form.first_name} Communauté de developpeurs 🇨🇩`)
 });
 
-BotConfig.launch();
+bot.on((ctx)=>{
+  ctx.reply('Quelle est votre compétence?')
+});
+
+bot.help((ctx)=>{
+  ctx.reply('Merci d\'être dans la communauté')
+});
+
+bot.launch();

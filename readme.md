@@ -14,12 +14,14 @@
        - https://core.telegram.org/bots/api
        - https://core.telegram.org/bots/samples - Nodejs
 
-   ####  Initialize your node projet
+   ####  Initialize your node project
          - touch bot.js
          - npm init
+         - npm i nodemon -d
    #### Clone the project from github
          - git clone https://github.com/CoqDig/Botgram.git
          - npm install
+
 
 ### Contributors
 <ul>
